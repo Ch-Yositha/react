@@ -96,6 +96,7 @@ class RegisterForm extends React.Component {
             <label>Password</label>
             <input type="password" name="password" value={this.state.fields.password} onChange={this.handleChange} />
             <div className="errorMsg">{this.state.errors.password}</div>
+            <div className="successMsg">{this.state.errors.password1}</div>
             <input type="submit" className="button" value="Register" />
           </form>
         </div>
