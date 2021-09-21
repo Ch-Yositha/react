@@ -1,0 +1,28 @@
+form label,
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+}
+
+.button {
+  background-color: #00bfff;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6b8e23;
+  margin-bottom: 10px;
+}
